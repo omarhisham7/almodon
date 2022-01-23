@@ -7,6 +7,30 @@
             width: 1073px;
             height: 610px;
         }
+        .carousel-caption {
+            margin-right: -690px;
+            .p1 {
+                margin-right: -252px;
+                color: white;
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            .p2 {
+                font-size: 24px;
+                font-weight: bold;
+                color: white;
+                margin-right: 178px;
+                margin-bottom: 4px;
+            }
+            .p3 {
+                font-size: 16px;
+                font-weight: normal;
+                color: white;
+                margin-right: 302px;
+                margin-bottom: -15px;
+            }
+        }
         .arrow-left {
             padding-top: 8px;
             width: 32px;
@@ -45,6 +69,18 @@
         .carousel-item>img {
             width: 460px;
             height: 260px;
+        }
+        .carousel-caption {
+            background-color: #052b5b;
+            opacity: 0.9;
+            width: 100%;
+            margin-right: -55px;
+            margin-bottom: -30px;
+            height: 10px;
+            p {
+                margin-top: -18px;
+                margin-right: -261px;
+            }
         }
         .arrow-left {
             padding-top: 8px;
