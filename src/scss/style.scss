@@ -1,0 +1,30 @@
+@import 'base/typography';
+@import 'sections/section1';
+@import 'sections/section2';
+@import 'sections/section3';
+@import 'sections/section4';
+@import 'sections/section5';
+@import 'sections/section6';
+@import 'components/carousel';
+@import 'components/Components';
+@import 'layout/footer';
+@import 'layout/nav';
+@import 'utilities/variables';
+@import 'media';
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.row {
+    --bs-gutter-x: unset;
+}

@@ -1,0 +1,184 @@
+@import '../utilities/variables';
+// icons section
+.icons-nav {
+    padding: 0px;
+    height: 40px;
+    border-bottom: 1px solid #e7e7e9;
+}
+
+.icons .latest {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+    color: #74747c;
+    margin-left: 30px;
+}
+
+.icons i {
+    color: #74747c;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.icons-nav .col-sm-8 i {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.icons-nav .col-sm-8 .date {
+    color: #454551;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.icons-nav .col-sm-8 .date::after {
+    content: '';
+    position: absolute;
+    background-color: #e7e7e9;
+    width: 1px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin-left: 1540px;
+}
+
+.icons-nav .col-sm-8 .paragraph {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d90c43;
+    line-height: normal;
+    margin-right: 31px;
+}
+
+.icons-nav {
+    @media (max-width: 768px) {
+        .icons-nav {
+            display: none;
+        }
+    }
+}
+
+// end of icons navbar
+// start of nav images
+.nav-images {
+    padding: 0px;
+}
+
+.nav-images .logo img {
+    width: 225px;
+    height: 105px;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.nav-images .info-image img {
+    width: 728px;
+    height: 90px;
+    margin-right: 233px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nav-images {
+    @media (max-width: 768px) {
+        .col-sm-4 {
+            width: 100%;
+        }
+        .col-sm-8 {
+            display: none;
+        }
+    }
+}
+
+// end of nav images
+.navbar {
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: $secondary-color;
+}
+
+.navbar-nav {
+    margin-right: 0px;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 15px 0;
+    margin-left: 50px;
+}
+
+.main-nav {
+    // margin-top: 2px;
+    .active {
+        width: 120px;
+        height: 60px;
+    }
+}
+
+.active {
+    background-color: $base-color !important;
+    // width: 120px;
+}
+
+.nav-form {
+    margin-left: 50px;
+}
+
+.nav-form::after {
+    content: '';
+    position: absolute;
+    background-color: #ffff;
+    width: 1px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    margin-left: 559px;
+}
+
+.form-control {
+    border: none;
+    background-color: $secondary-color;
+}
+
+.search {
+    margin-left: -16px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar i {
+    color: white;
+}
+
+@media(max-width:900px) {
+    .navbar-nav {
+        text-align: right !important;
+        width: 100%;
+    }
+    .navbar .collapse .nav-item {
+        text-align: right !important;
+        margin-bottom: 15px !important;
+        border-bottom: 1px solid gainsboro;
+        // width: 100%;
+    }
+    .navbar .collapse .nav-item:last-child {
+        text-align: right !important;
+        margin-bottom: 15px !important;
+        border-bottom: none;
+        // width: 100%;
+    }
+}

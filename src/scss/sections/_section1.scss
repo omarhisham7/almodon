@@ -1,0 +1,98 @@
+// section 1
+.section1 {
+    // background-color: red;
+    margin-top: 40px;
+    .col-sm-8 {
+        margin-right: 49px;
+    }
+    .col-sm-4 {
+        height: 610px;
+        width: 338px;
+        margin-right: 21px;
+        border: #d1d1d3 solid 1px;
+        position: relative;
+        .d-flex {
+            margin-left: 150px;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 150px;
+        }
+        h3::after {
+            content: '';
+            position: absolute;
+            background-color: #0f52aa;
+            width: 117px;
+            height: 6px;
+            margin-top: 48px;
+            margin-right: 13px;
+            bottom: 10;
+            right: 0;
+            margin-left: 35px;
+        }
+        .info {
+            width: 338px;
+            height: 133px;
+            position: relative;
+            .firstRow::before {
+                content: '';
+                position: absolute;
+                background-color: #e7e7e9;
+                width: 190px;
+                height: 1px;
+                margin-top: -40px;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                margin-left: 35px;
+            }
+            img {
+                width: 80px;
+                height: 80px;
+            }
+            p {
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 20px;
+                width: 200px;
+                line-height: 1.67;
+            }
+            span {
+                margin-top: 8px;
+                color: #0f52aa;
+                font-size: 14px;
+                font-weight: bold;
+                margin-right: 20px;
+                width: 200px;
+                line-height: 1.67;
+            }
+            .span::after {
+                content: '';
+                position: absolute;
+                border-bottom: 1px dashed gray;
+                width: 297px;
+                height: 1px;
+                margin-top: 30px;
+                margin-right: 10px;
+                bottom: 10;
+                right: 0;
+                margin-left: 35px;
+            }
+            .span2::after {
+                content: '';
+                position: absolute;
+                border-bottom: 1px dashed gray;
+                width: calc(100% - 50px);
+                height: 6px;
+                margin-top: 50px;
+                margin-right: 10px;
+                bottom: 10;
+                right: 0;
+                margin-left: 35px;
+            }
+        }
+    }
+}
+
+// end of section 1

@@ -1,0 +1,48 @@
+@import '../utilities/variables';
+.section6 {
+    .main-span {
+        color: #171725;
+        font-size: 22px;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 30px;
+        margin-right: -20px;
+    }
+    .main-span::after {
+        content: '';
+        position: absolute;
+        background-color: #0f52aa;
+        width: 120px;
+        height: 6px;
+        margin-bottom: -15px;
+        margin-right: 0px;
+        bottom: 0;
+        right: 0;
+        margin-left: 35px;
+    }
+    .main-span::before {
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #e7e7e9;
+        width: 1355px;
+        height: 6px;
+        margin-top: 39px;
+        top: 0;
+        left: 0;
+        margin-left: 10px;
+    }
+    img {
+        width: 460px;
+        height: 260px;
+        margin-left: 30px;
+    }
+    .right-column {
+        margin-right: -20px;
+    }
+    .middle-column {
+        margin-right: 8px;
+    }
+    .left-column {
+        margin-right: 10px;
+    }
+}
