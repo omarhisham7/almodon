@@ -1,4 +1,4 @@
-    .section1 {
+    .sliderAndWriters {
         .carousel-item {
             width: 1073px;
             height: 610px;
@@ -61,6 +61,72 @@
         }
     }
     
+    //media 
+    .section1 {
+        @media(max-width: 768px) {
+            .carousel-item {
+                width: 100%;
+                height: 400px;
+            }
+            .carousel-item>img {
+                width: 100%;
+                height: 210px;
+            }
+            .carousel-caption {
+                width: 100%;
+                height: 175px;
+                background-color: #052b5b;
+                position: relative;
+                bottom: 0;
+                right: 0;
+                margin-right: 0px !important;
+                text-align: right;
+                .p1 {
+                    margin-right: 25px !important;
+                    color: #ffad1f;
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                    order: 3 !important;
+                }
+                .p2 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: white;
+                    margin-right: 25px !important;
+                    margin-bottom: 4px;
+                    order: 1;
+                }
+                .p3 {
+                    font-size: 14px;
+                    font-weight: normal;
+                    color: white;
+                    margin-right: 25px !important;
+                    margin-bottom: -15px;
+                    order: 2;
+                }
+            }
+            .arrow-left {
+                padding-top: 4px;
+                width: 24px;
+                height: 24px;
+                margin-top: 330px;
+                margin-right: 0px;
+                background-color: #fff7e9;
+                color: #052b5b;
+            }
+            .arrow-right {
+                padding-top: 4px;
+                width: 24px;
+                height: 24px;
+                margin-top: 330px;
+                margin-left: -525px;
+                background-color: #fff7e9;
+                color: #052b5b;
+            }
+        }
+    }
+    
     .section6 {
         .carousel-item {
             width: 460px;
@@ -109,5 +175,49 @@
         .carousel-control-prev {
             opacity: 1;
             transition: none;
+        }
+    }
+    
+    //media 
+    .section6 {
+        @media(max-width: 768px) {
+            .carousel-item {
+                width: 320px;
+                height: 220px;
+            }
+            .carousel-item>img {
+                width: 320px;
+                height: 180px;
+            }
+            .carousel-caption {
+                background-color: #052b5b;
+                opacity: 0.9;
+                width: 100%;
+                margin-right: -48px;
+                margin-bottom: -20px;
+                height: 10px;
+                p {
+                    margin-top: -14px;
+                    margin-right: -118px;
+                }
+            }
+            .arrow-left {
+                padding-top: 8px;
+                width: 32px;
+                height: 32px;
+                margin-top: 0px;
+                margin-right: 0px;
+                background-color: #fff7e9;
+                color: #052b5b;
+            }
+            .arrow-right {
+                padding-top: 8px;
+                width: 32px;
+                height: 32px;
+                margin-top: 0px;
+                margin-left: 0px;
+                background-color: #fff7e9;
+                color: #052b5b;
+            }
         }
     }

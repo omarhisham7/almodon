@@ -1,5 +1,6 @@
 @import 'base/typography';
 @import 'sections/section1';
+@import'sections/sliderAndWriters';
 @import 'sections/section2';
 @import 'sections/section3';
 @import 'sections/section4';
@@ -8,9 +9,8 @@
 @import 'components/carousel';
 @import 'components/Components';
 @import 'layout/footer';
-@import 'layout/nav';
+@import 'layout/header';
 @import 'utilities/variables';
-@import 'media';
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
